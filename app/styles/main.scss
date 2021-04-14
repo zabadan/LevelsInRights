@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 
-
-$maincolor: #A6163F;
+$maincolor: #a6163f;
 $gray: rgba(60, 60, 59, 0.5);
 
 /* Space out content a bit */
@@ -10,9 +10,6 @@ body {
   padding-bottom: 1.5rem;
 }
 
-
-
-
 /* Customize container */
 // @media (min-width: 48em) {
 //   .container {
@@ -20,35 +17,174 @@ body {
 //   }
 // }
 
+// header css
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  .head-logos {
+    display: flex;
+    align-items: center;
+  }
+  .nav_item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.1;
+    position: relative;
+    margin-right: 16px;
+    &:before {
+      content: "";
+      border: 0.5px solid #8e8e8e;
+      transform: rotate(90deg);
+      width: 24px;
+      position: absolute;
+      left: -20px;
+      top: 5px;
+    }
+  }
+  .nav_link {
+    color: #8e8e8e;
+    cursor: pointer;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
 
-.lir{
-  &-container{
+//mainpage css
+.main-container {
+  max-width: 1050px;
+  .main {
+    &-heading {
+      font-family: Roboto Slab;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 96px;
+      letter-spacing: 0.01em;
+      color: #a6163f;
+    }
+    &-img {
+      float: right;
+    }
+    &-title {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 1.4;
+      color: #a6163f;
+    }
+    &-subtitle {
+      font-family: Roboto Slab;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      color: #a6163f;
+      margin-bottom: 70px;
+      margin-top: -70px;
+      position: relative;
+    }
+
+    .about {
+      align-items: center;
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 19px;
+      }
+    }
+    .row {
+      margin-bottom: 100px;
+    }
+    .story-text {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 15px;
+      color: #3c3c3b;
+    }
+    .stry-img {
+      margin-top: -140px;
+      float: right;
+    }
+    .decor-img {
+      position: absolute;
+      bottom: -56px;
+      transform: rotate(1.39deg);
+      left: -20%;
+    }
+    .decor-img-2 {
+      position: absolute;
+      display: inline-block;
+      bottom: 0%;
+      right: -13%;
+    }
+    .story-arrow1 {
+      position: relative;
+      left: 60%;
+      display: inline-block;
+    }
+    .story-arrow2 {
+      position: relative;
+      left: 10%;
+      display: inline-block;
+      float: right;
+    }
+    .story-arrow3 {
+      position: absolute;
+      right: 0;
+      display: inline-block;
+    }
+    .story-arrow4 {
+      position: absolute;
+      right: 20%;
+      display: inline-block;
+    }
+    .story-arrow5 {
+      position: absolute;
+      right: -5%;
+      display: inline-block;
+    }
+  }
+}
+
+//story css
+.lir {
+  &-container {
     max-width: 708px;
     box-sizing: content-box;
   }
 
-  &-logos{
+  &-logos {
     justify-content: space-between;
     align-items: center;
     margin: 0 0 24px;
   }
 
-  &-logo{
+  &-logo {
     flex-grow: unset;
     padding: 0;
   }
 
-  &-header{
+  &-header {
     position: relative;
+    width: 1110px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
   }
 
-  &-navigation{
+  &-navigation {
     position: absolute;
     top: 137px;
     left: -142px;
   }
 
-  &-main-img{
+  &-main-img {
     height: 250px;
     margin-bottom: 26px;
     width: 100%;
@@ -57,84 +193,82 @@ body {
     background-size: auto;
   }
 
-  &-heading{
-    font-family: 'Roboto Slab', serif;
+  &-heading {
+    font-family: "Roboto Slab", serif;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    color: #1D1D1B;
+    color: #1d1d1b;
     margin-bottom: 22px;
     line-height: 1.3;
   }
 
-  &-lid{
-    font-family: 'Roboto', serif;
+  &-lid {
+    font-family: "Roboto", serif;
     font-weight: 500;
     margin-bottom: 13px;
     position: relative;
     line-height: 1.2;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       top: 1px;
       bottom: 1px;
       width: 16px;
       left: -40px;
       background-color: $maincolor;
-      
     }
   }
 
-  &-text{
-    p{
-      font-family: 'Roboto', serif;
+  &-text {
+    p {
+      font-family: "Roboto", serif;
       font-weight: 300;
       font-size: 16px;
       margin-bottom: 17px;
       line-height: 1.2;
 
-      a{
+      a {
         color: $maincolor;
         text-decoration: none;
       }
     }
   }
 
-  &-pagination{
-    &__item{
+  &-pagination {
+    &__item {
       border-width: 0;
-      font-family: 'Roboto Slab', serif;
+      font-family: "Roboto Slab", serif;
       font-size: 16px;
       color: $gray;
       font-weight: 700;
-      &:hover{
+      &:hover {
         background-color: transparent;
         color: $gray;
       }
-      &_active{
+      &_active {
         color: $maincolor;
         font-size: 24px;
         padding-top: 0;
-        &:hover{
+        &:hover {
           color: $maincolor;
         }
       }
     }
   }
 
-  &-footer{
-    font-family: 'Roboto Slab', serif;
+  &-footer {
+    font-family: "Roboto Slab", serif;
     font-size: 14px;
     font-weight: 100;
   }
 
-  &-nav-stories{
-
-    &__btn{
+  &-nav-stories {
+    &__btn {
       width: 116px;
       padding: 4px 0;
       box-sizing: border-box;
-      font-family: 'Roboto Slab', serif;
+      font-family: "Roboto Slab", serif;
       font-size: 16px;
       font-weight: 700;
       color: #fff;
@@ -145,13 +279,13 @@ body {
       cursor: pointer;
       border-radius: 5px;
       margin-bottom: 24px;
-      &:hover{
+      &:hover {
         color: #fff;
         text-decoration: none;
       }
     }
 
-    &__list{
+    &__list {
       position: absolute;
       top: 40px;
       left: 0;
@@ -161,24 +295,24 @@ body {
       z-index: 100;
     }
 
-    &__item{
+    &__item {
       display: block;
-      font-family: 'Roboto Slab', serif;
+      font-family: "Roboto Slab", serif;
       font-size: 16px;
       font-weight: 700;
       color: $maincolor;
       padding: 30px 0px;
       position: relative;
-      &_current{
+      &_current {
         color: $gray;
       }
-      a{
+      a {
         color: currentColor;
         text-decoration: none;
         display: block;
       }
-      &:after{
-        content: '';
+      &:after {
+        content: "";
         position: absolute;
         left: 0;
         right: 0;
@@ -188,10 +322,9 @@ body {
         background-color: $gray;
       }
 
-      &:last-child:after{
+      &:last-child:after {
         content: none;
       }
     }
   }
-
 }

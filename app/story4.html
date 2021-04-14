@@ -18,48 +18,58 @@
 <body>
     <div class="lir-container container">
         <div class="lir-header">
-            <div class="row lir-logos">
-                <div class="col lir-logo">
-                    <a href=""><img src="images/logo-ZMINALOUJ.jpg"></a>
-                </div>
-                <div class="col lir-logo">
-                    <a href=""><img src="images/logo-RealStories.jpg"></a>
-                </div>
-                <div class="col lir-logo">
-                    <a href=""><img src="images/logo-Denmark.jpg"></a>
-                </div>
-                <div class="col lir-logo">
-                    <a href=""><img src="images/logo-UNDP.jpg"></a>
+            <div class="header">
+                <ul class="nav">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link">ГОЛОВНА</a>
+                    </li>
+                    <li class="nav_item">
+                        <div class="nav_link" data-toggle="dropdown">ІСТОРІЇ</div>
+                        <ul class="dropdown-menu lir-nav-stories__list">
+                            <li class="lir-nav-stories__item">
+                                <a href="/story1.html" target="_self">
+                                    «Нікого не може бути піддано катуванню…»
+                                </a>
+                            </li>
+                            <li class="lir-nav-stories__item">
+                                <a href="/story2.html" target="_self">Права по крихтах, або Як захищають себе люди із
+                                    статусом
+                                    ВПО</a>
+                            </li>
+                            <li class="lir-nav-stories__item">
+                                <a href="/story3.html" target="_self">Вперті</a>
+                            </li>
+                            <li class="lir-nav-stories__item lir-nav-stories__item_current">
+                                «Мамо, я хочу свою улюблену іграшку» — нехитрі
+                                мрії дітей з
+                                Донбасу
+                            </li>
+                            <li class="lir-nav-stories__item">
+                                <a href="/story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
+                                    дитини</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="row head-logos">
+                    <div class="col ">
+                        <a href="https://zmina.info/" target="_blank"><img src="images/logo-ZMINALOUJ.jpg"></a>
+                    </div>
+                    <div class="col ">
+                        <a href="http://realstoriesproduction.com/" target="_blank"><img
+                                src="images/logo-RealStories.jpg"></a>
+                    </div>
+                    <div class="col ">
+                        <a href="https://um.dk/en/" target="_blank"><img src="images/logo-Denmark.jpg"></a>
+                    </div>
+                    <div class="col ">
+                        <a href="https://www.undp.org/" target="_blank"><img src="images/logo-UNDP.jpg"></a>
+                    </div>
                 </div>
             </div>
 
             <div class="lir-main-img" style="background-image: url('images/h4-main-img.png');"></div>
-            <div class="lir-navigation">
-                <div class="lir-nav-stories">
-                    <div class="lir-nav-stories__btn" data-toggle="dropdown">ІСТОРІЇ</div>
-                    <ul class="dropdown-menu lir-nav-stories__list">
-                        <li class="lir-nav-stories__item ">
-                            <a href="/story1.html" target="_self">«Нікого не може бути піддано катуванню…»</a>
-                        </li>
-                        <li class="lir-nav-stories__item">
-                            <a href="/story2.html" target="_self">Права по крихтах, або Як захищають себе люди із
-                                статусом
-                                ВПО</a>
-                        </li>
-                        <li class="lir-nav-stories__item">
-                            <a href="/story3.html" target="_self">Вперті</a>
-                        </li>
-                        <li class="lir-nav-stories__item lir-nav-stories__item_current">
-                            «Мамо, я хочу свою улюблену іграшку» — нехитрі мрії дітей з Донбасу
-                        </li>
-                        <li class="lir-nav-stories__item">
-                            <a href="/story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
-                                дитини</a>
-                        </li>
-                    </ul>
-                </div>
-                <a href="/" target="_self" class="lir-nav-stories__btn">НА ГОЛОВНУ</a>
-            </div>
+
         </div>
         <div class="lir-main">
             <h1 class="lir-heading">
@@ -226,18 +236,17 @@
             Копирайт 2021???
         </div>
     </div>
-        <!-- build:js scripts/vendor.js -->
-        <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-            crossorigin="anonymous"></script>
-    
-        <!-- <script type="text/javascript" src="/node_modules/popper.js/dist/popper.min.js"></script> -->
-        <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- endbuild -->
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/vendor.js -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+
+    <!-- <script type="text/javascript" src="/node_modules/popper.js/dist/popper.min.js"></script> -->
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
