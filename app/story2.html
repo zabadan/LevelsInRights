@@ -23,11 +23,11 @@
                     <li class="nav_item">
                         <a href="index.html" class="nav_link">ГОЛОВНА</a>
                     </li>
-                    <li class="nav_item">
-                        <div class="nav_link" data-toggle="dropdown">ІСТОРІЇ</div>
-                        <ul class="dropdown-menu lir-nav-stories__list">
+                    <li class="nav_item"  id="historywrap">
+                        <div class="nav_link" id="historybtn">ІСТОРІЇ</div>
+                        <ul class="dropdown-menu lir-nav-stories__list" id="historymenu">
                             <li class="lir-nav-stories__item">
-                                <a href="/story1.html" target="_self">
+                                <a href="story1.html" target="_self">
                                     «Нікого не може бути піддано катуванню…»
                                 </a>
                             </li>
@@ -37,15 +37,15 @@
                                 ВПО
                             </li>
                             <li class="lir-nav-stories__item">
-                                <a href="/story3.html" target="_self">Вперті</a>
+                                <a href="story3.html" target="_self">Вперті</a>
                             </li>
                             <li class="lir-nav-stories__item">
-                                <a href="/story4.html" target="_self">«Мамо, я хочу свою улюблену іграшку» — нехитрі
+                                <a href="story4.html" target="_self">«Мамо, я хочу свою улюблену іграшку» — нехитрі
                                     мрії дітей з
                                     Донбасу</a>
                             </li>
                             <li class="lir-nav-stories__item">
-                                <a href="/story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
+                                <a href="story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
                                     дитини</a>
                             </li>
                         </ul>
@@ -162,7 +162,7 @@
 
             <ul class="pagination justify-content-center lir-pagination__list">
                 <li class="page-item">
-                    <a class="page-link lir-pagination__item" href="/story1.html"> <svg width="8" height="14"
+                    <a class="page-link lir-pagination__item" href="story1.html"> <svg width="8" height="14"
                             viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M0.3 7.5L6 13.1C6.4 13.5 7 13.5 7.4 13.1C7.8 12.7 7.8 12.1 7.4 11.7L2.5 6.7L7.4 1.7C7.8 1.3 7.8 0.7 7.4 0.3C7.2 0.0999997 7 0 6.7 0C6.4 0 6.2 0.0999997 6 0.3L0.3 5.9C-0.1 6.4 -0.1 7 0.3 7.5C0.3 7.4 0.3 7.4 0.3 7.5Z"
@@ -171,22 +171,22 @@
                     </a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link lir-pagination__item" href="/story1.html">1</a>
+                    <a class="page-link lir-pagination__item" href="story1.html">1</a>
                 </li>
                 <li class="page-item">
                     <span class="page-link lir-pagination__item lir-pagination__item_active">2</span>
                 </li>
                 <li class="page-item">
-                    <a class="page-link lir-pagination__item" href="/story3.html">3</a>
+                    <a class="page-link lir-pagination__item" href="story3.html">3</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link lir-pagination__item" href="/story4.html">4</a>
+                    <a class="page-link lir-pagination__item" href="story4.html">4</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link lir-pagination__item" href="/story5.html;">5</a>
+                    <a class="page-link lir-pagination__item" href="story5.html;">5</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link lir-pagination__item" href="/story3.html">
+                    <a class="page-link lir-pagination__item" href="story3.html">
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.37079 5.9458L1.71079 0.295798C1.61783 0.20207 1.50723 0.127676 1.38537 0.0769072C1.26351 0.0261385 1.1328 0 1.00079 0C0.868781 0 0.738075 0.0261385 0.616216 0.0769072C0.494356 0.127676 0.383755 0.20207 0.290792 0.295798C0.104542 0.483161 0 0.736612 0 1.0008C0 1.26498 0.104542 1.51844 0.290792 1.7058L5.24079 6.7058L0.290792 11.6558C0.104542 11.8432 0 12.0966 0 12.3608C0 12.625 0.104542 12.8784 0.290792 13.0658C0.383407 13.1603 0.493852 13.2355 0.615727 13.287C0.737603 13.3384 0.868485 13.3652 1.00079 13.3658C1.1331 13.3652 1.26398 13.3384 1.38586 13.287C1.50773 13.2355 1.61818 13.1603 1.71079 13.0658L7.37079 7.4158C7.4723 7.32216 7.55331 7.2085 7.60871 7.08201C7.66412 6.95551 7.69273 6.8189 7.69273 6.6808C7.69273 6.5427 7.66412 6.40609 7.60871 6.27959C7.55331 6.15309 7.4723 6.03944 7.37079 5.9458Z"
@@ -204,8 +204,6 @@
     </div>
     <!-- build:js scripts/vendor.js -->
     <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-
 
     <!-- <script type="text/javascript" src="/node_modules/popper.js/dist/popper.min.js"></script> -->
     <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

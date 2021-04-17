@@ -27,29 +27,29 @@
         <li class="nav_item">
           <a href="index.html" class="nav_link">ГОЛОВНА</a>
         </li>
-        <li class="nav_item">
-          <div class="nav_link" data-toggle="dropdown">ІСТОРІЇ</div>
-          <ul class="dropdown-menu lir-nav-stories__list">
+        <li class="nav_item" id="historywrap"> 
+          <div class="nav_link" id="historybtn">ІСТОРІЇ</div>
+          <ul class="dropdown-menu lir-nav-stories__list" id="historymenu">
             <li class="lir-nav-stories__item">
-              <a href="/story1.html" target="_self">
+              <a href="story1.html" target="_self">
                 «Нікого не може бути піддано катуванню…»
               </a>
             </li>
             <li class="lir-nav-stories__item">
-              <a href="/story2.html" target="_self">Права по крихтах, або Як захищають себе люди із
+              <a href="story2.html" target="_self">Права по крихтах, або Як захищають себе люди із
                 статусом
                 ВПО</a>
             </li>
             <li class="lir-nav-stories__item">
-              <a href="/story3.html" target="_self">Вперті</a>
+              <a href="story3.html" target="_self">Вперті</a>
             </li>
             <li class="lir-nav-stories__item">
-              <a href="/story4.html" target="_self">«Мамо, я хочу свою улюблену іграшку» — нехитрі
+              <a href="story4.html" target="_self">«Мамо, я хочу свою улюблену іграшку» — нехитрі
                 мрії дітей з
                 Донбасу</a>
             </li>
             <li class="lir-nav-stories__item">
-              <a href="/story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
+              <a href="story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
                 дитини</a>
             </li>
           </ul>
@@ -294,9 +294,10 @@
     </div>
     <!-- build:js scripts/vendor.js -->
     <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-
-    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script> -->
+    
+    <script type="text/javascript" src="./scripts/popper.min.js"></script>
+    <!-- <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
