@@ -21,15 +21,25 @@
   <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <div class="container">
+  <div class="header-container">
     <div class="header">
       <ul class="nav">
         <li class="nav_item">
-          <a href="index.html" class="nav_link">ГОЛОВНА</a>
+          <a href="index.html" class="nav_link desc-menu">ГОЛОВНА</a>
         </li>
         <li class="nav_item" id="historywrap"> 
-          <div class="nav_link" id="historybtn">ІСТОРІЇ</div>
+          <div class="nav_link" id="historybtn">
+            <span class="desc-menu">
+              ІСТОРІЇ
+            </span> 
+            <span class="mob-menu">
+              <img src="images/menu.jpg" alt="">
+            </span>
+          </div>
           <ul class="dropdown-menu lir-nav-stories__list" id="historymenu">
+            <h2 class="dropdown-menu-header d-md-none d-sm-block">
+              Історії
+            </h2>
             <li class="lir-nav-stories__item">
               <a href="story1.html" target="_self">
                 «Нікого не може бути піддано катуванню…»
@@ -52,20 +62,26 @@
               <a href="story5.html" target="_self">«Хочу вчитися», або Чому важливо поважати вибір
                 дитини</a>
             </li>
+            <h2 class="dropdown-menu-footer d-md-none d-sm-block">
+              На головну
+            </h2>
+            <div class="nav-arrow d-md-none d-sm-block">
+              <img src="images/arrow-2.jpg" alt="">
+            </div>
           </ul>
         </li>
       </ul>
       <div class="row head-logos">
-        <div class="col ">
+        <div class="head-logo ">
           <a href="https://zmina.info/" target="_blank"><img src="images/logo-ZMINALOUJ.jpg"></a>
         </div>
-        <div class="col ">
+        <div class="head-logo ">
           <a href="http://realstoriesproduction.com/" target="_blank"><img src="images/logo-RealStories.jpg"></a>
         </div>
-        <div class="col ">
+        <div class="head-logo ">
           <a href="https://um.dk/en/" target="_blank"><img src="images/logo-Denmark.jpg"></a>
         </div>
-        <div class="col ">
+        <div class="head-logo ">
           <a href="https://www.undp.org/" target="_blank"><img src="images/logo-UNDP.jpg"></a>
         </div>
       </div>
@@ -76,35 +92,35 @@
       <h1 class="main-heading">
         Рівні в правах
       </h1>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="main-img">
+      <div class="row d-sm-flex justify-content-center">
+        <div class="col-md-12 col-sm-10">
+          <div class="main-img d-md-flex justify-content-center">
             <img src="images/main-img.png">
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-xl-10 col-md-9 col-sm-9">
           <div class="main-title">
             <p>Історії про те, як регіональна мережа Уповноваженого Верховної Ради України з прав людини
               допомагає відновити права людини на місцевому рівні</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="main-img">
+      <div class="row d-sm-flex justify-content-center">
+        <div class="col-md-12 col-sm-10">
+          <div class="main-img float-xl-right">
             <img src="images/main-img2.png">
           </div>
         </div>
       </div>
-      <div class="row about">
-        <div class="col-md-2">
-          <div class="main-image">
+      <div class="row about d-md-flex justify-content-center">
+        <div class="col-xl-2 col-md-2 col-sm-2">
+          <div class="main-img d-none d-sm-block">
             <img src="images/main-img3.png" />
           </div>
         </div>
-        <div class="col-md-10">
+        <div class="col-xl-10 col-md-7 col-sm-9">
           <p>Проєкт «Права людини для України», який виконується Програмою розвитку ООН в Україні та фінансується
             Міністерством закордонних справ Данії протягом 2019-2023 рр. продовжує підтримувати розвиток регіональної
             мережі офісу Уповноваженого Верховної Ради в Україні з прав людини. Регіональні представники та координатори
@@ -116,29 +132,29 @@
             агенцій ООН.</p>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4">
+      <div class="row d-xl-flex justify-content-center">
+        <div class="col-xl-4 col-md-6 col-sm-4 d-md-flex justify-content-center d-none d-md-block">
           <div class="">
             <img src="images/main-img4.png">
           </div>
         </div>
-        <div class="col-md-7">
-          <div class="">
+        <div class="col-xl-7 col-md-6 col-sm-5 d-md-flex justify-content-center">
+          <div class="sm-img">
             <img src="images/main-img5.png">
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="">
+      <div class="row d-sm-flex justify-content-center">
+        <div class="col-xl-3 col-md-4 col-sm-10 d-md-flex justify-content-center d-none d-sm-block">
+          <div class="mob">
             <img src="images/main-img6.png">
           </div>
         </div>
-        <div class="col-md-9">
-          <h2 class="main-subtitle">
+        <div class="col-xl-9 col-md-7 col-sm-9 ">
+          <h2 class="main-subtitle text-md-center">
             «Нікого не може бути піддано катуванню…»
           </h2>
-          <div class="story-text" style="padding-top: 40px;">
+          <div class="story-text">
             <p>Ця стаття 3 Конвенції про захист прав людини вкотре нагадує — будьмо людьми з людським обличчям. Не так
               давно відбувалися страшні злочини концтаборів ХХ століття, ми ще лиш збираємо свідчення про нелюдське
               поводження до полонених у підвалах так званих «ДНР» і «ЛНР». І тим сумніше чути, що в Україні до людини
@@ -150,21 +166,22 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-10">
+      <div class="row d-sm-flex justify-content-center">
+        <div class="col-xl-9 col-md-6 col-sm-5">
           <div class="d-flex justify-content-center">
-            <img src="images/h2-main-img.png">
+            <div class="sm-img">
+              <img src="images/h2-main-img.png">
+            </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="d-flex justify-content-center">
+        <div class="col-xl-3 col-md-3 col-sm-5 d-sm-flex align-items-sm-end d-none d-sm-block">
+          <div class="">
             <img src="images/main-img7.png">
           </div>
         </div>
       </div>
-      <div class="row justify-content-center" style="
-        position: relative">
-        <div class="col-md-4">
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-md-5 d-none d-md-block d-xs-none">
           <div class="">
             <img src="images/main-img12.png">
           </div>
@@ -172,7 +189,7 @@
             <img src="images/main-img8.png">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-xl-7 col-md-6 col-sm-11">
           <h2 class="main-subtitle text-center">
             Права по крихтах, або Як захищають
             себе люди із статусом ВПО
@@ -189,21 +206,25 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-7">
-          <div class="d-flex justify-content-center">
+      <div class="row d-md-flex justify-content-center">
+        <div class="col-sm-3 d-none d-xs-none d-sm-block d-md-none">
+          <div class="">
+            <img src="images/story3-img1.png">
+          </div>
+        </div> 
+        <div class="col-xl-7 col-md-6 col-sm-5 order-md-0 order-sm-2"">
+          <div class="d-flex justify-content-center main-img sm-img">
             <img src="images/main-img9.png">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-xl-3 col-md-4 col-sm-4 d-none d-xs-none d-none d-sm-block">
           <div class="">
             <img src="images/main-img10.png">
           </div>
-        </div>
+        </div> 
       </div>
-      <div class="row" style="
-        position: relative">
-        <div class="col-md-7 magin-left-auto">
+      <div class="row d-md-flex justify-content-center">
+        <div class="col-xl-7 col-md-6 ">
           <h2 class="main-subtitle text-center">
             Вперті
           </h2>
@@ -218,34 +239,34 @@
             <a href="story3.html"><img src="images/arrow.jpg"></a>
           </div>
         </div>
-        <div class="col-md-4  magin-left-auto">
+        <div class="col-xl-4 col-md-3 col-sm-3  magin-left-md-auto d-none d-md-block">
           <div class="stry-img">
             <img src="images/story3-img1.png">
           </div>
-          <div class="decor-img ">
+          <div class="decor-img-2 ">
             <img src="images/main-img11.png">
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5">
-          <div class="">
+        <div class="col-md-4 col-sm-8 order-md-0 order-sm-2 mt">
+          <div class="d-sm-flex justify-content-sm-end sm-img">
             <img src="images/main-img13.png">
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4 d-xl-block d-md-block d-sm-none">
           <div class="d-flex justify-content-center">
             <img src="images/main-img14.png">
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-4 d-none d-sm-block">
           <div class="float-right">
             <img src="images/main-img15.png">
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-xl-10 col-md-8 col-sm-9">
           <h2 class="main-subtitle text-center">
             «Мамо, я хочу свою улюблену іграшку» — нехитрі мрії дітей з Донбасу
           </h2>
@@ -262,20 +283,17 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-10">
+      <div class="row justify-content-md-center">
+        <div class="col-xl-10 col-md-8 sm-img">
           <div>
             <img src="images/h5-main-img.png" alt="">
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-10">
-          <h2 class="main-subtitle">
+      <div class="row justify-content-center position-relative">
+        <div class="col-xl-11 col-md-8 col-sm-9">
+          <h2 class="main-subtitle text-center">
             «Хочу вчитися», або Чому важливо поважати вибір дитини
-            <div class="decor-img-2">
-              <img src="images/main-img16.png">
-            </div>
           </h2>
           <div class="story-text">
             <p>…Вона невимушено стала біля стіни з намальованими крилами. Таке щире фото янгола для друзів у
@@ -290,8 +308,15 @@
             <a href="story5.html"><img src="images/arrow.jpg"></a>
           </div>
         </div>
+        <div class="decor-img-3 position-absolute d-none d-sm-block">
+          <img src="images/main-img16.png">
+        </div>
       </div>
     </div>
+    <div class="footer text-center">
+      Копирайт 2021???
+    </div>
+  </div>
     <!-- build:js scripts/vendor.js -->
     <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script> -->
