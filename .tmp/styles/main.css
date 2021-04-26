@@ -46,7 +46,7 @@ body {
           align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .header .head-logos {
     margin-right: 0;
   }
