@@ -1,1 +1,0 @@
-$(document).click(function(i){!$(i.target).closest("#historywrap").length&&$("#historymenu").is(":visible")&&$("#historymenu").hide()}),$("#historybtn").click(function(){$("#historymenu").toggle()}),$(".nav-arrow").click(function(){$("#historymenu").hide()});
