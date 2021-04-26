@@ -47,6 +47,9 @@ body {
       @media(max-width: 768px) {
         margin-left: 25px;
       }
+      @media(max-width: 555px) {
+        margin-left: 20px;
+      }
       @media(max-width: 400px) {
         margin-left: 15px;
       }
@@ -364,14 +367,14 @@ body {
     }
   }
   .sm-img{
+    img{
+      max-width: 100%;
+    }
     @media(max-width: 576px) {
       text-align: center;
     }
     @media(max-width: 320px) {
       margin-bottom: 50px;
-      img{
-        max-width: 100%;
-      }
     }
   }
 }

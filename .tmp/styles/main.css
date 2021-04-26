@@ -68,6 +68,12 @@ body {
   }
 }
 
+@media (max-width: 555px) {
+  .header .head-logos .head-logo {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 400px) {
   .header .head-logos .head-logo {
     margin-left: 15px;
@@ -535,6 +541,10 @@ body {
   }
 }
 
+.main-container .sm-img img {
+  max-width: 100%;
+}
+
 @media (max-width: 576px) {
   .main-container .sm-img {
     text-align: center;
@@ -544,9 +554,6 @@ body {
 @media (max-width: 320px) {
   .main-container .sm-img {
     margin-bottom: 50px;
-  }
-  .main-container .sm-img img {
-    max-width: 100%;
   }
 }
 
