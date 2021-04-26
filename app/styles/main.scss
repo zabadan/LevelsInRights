@@ -323,8 +323,14 @@ body {
       @media (max-width: 768px) {
         left: 96%;
       }
-      @media (max-width: 320px) {
-        left: 82%;
+      @media (max-width: 576px) {
+        left: 85%;
+      }
+      @media (max-width: 467px) {
+        left: 79%;
+      }
+      @media (max-width: 340px) {
+        left: 76%;
       }
     }
     .story-arrow2 {
@@ -337,6 +343,9 @@ body {
       position: absolute;
       right: 0;
       display: inline-block;
+      @media(max-width: 768px){
+        right: 15px;
+      }
     }
     .story-arrow4 {
       position: absolute;
@@ -350,8 +359,8 @@ body {
       position: absolute;
       right: -5%;
       display: inline-block;
-      @media (max-width: 320px) {
-        right: 1%;
+      @media (max-width: 576px) {
+        right: 5%;
       }
     }
   }
@@ -370,7 +379,7 @@ body {
     @media(max-width: 576px) {
       text-align: center;
     }
-    @media(max-width: 320px) {
+    @media(max-width: 768px) {
       margin-bottom: 50px;
       img{
         max-width: 100%;
