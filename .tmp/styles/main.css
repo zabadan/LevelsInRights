@@ -44,12 +44,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media (max-width: 769px) {
-  .header .head-logos {
-    margin-right: 0;
-  }
+  margin-right: 0;
 }
 
 .header .head-logos .head-logo {
@@ -156,10 +151,8 @@ body {
   }
 }
 
-@media (max-width: 1060px) {
-  .header .nav {
-    margin-left: 20px;
-  }
+.header .nav {
+  margin-left: 20px;
 }
 
 @media (max-width: 320px) {
@@ -246,7 +239,6 @@ body {
   font-weight: bold;
   font-size: 96px;
   letter-spacing: 0.01em;
-  color: #a6163f;
 }
 
 @media (max-width: 1152px) {
@@ -460,7 +452,7 @@ body {
 
 @media (max-width: 1152px) {
   .main-container .main .decor-img-3 {
-    right: 0%;
+    right: 3%;
   }
 }
 
