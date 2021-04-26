@@ -11,4 +11,3 @@ $('#historybtn').click(function () {
 $('.nav-arrow').click(function () {
   $('#historymenu').hide();
 });
-//# sourceMappingURL=main.js.map
