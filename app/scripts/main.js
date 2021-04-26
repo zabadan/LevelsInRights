@@ -10,4 +10,6 @@ $('#historybtn').click(function(){
     $('#historymenu').toggle();
 });
 
-
+$('.nav-arrow').click(function(){
+  $('#historymenu').hide();
+});

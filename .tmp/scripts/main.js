@@ -8,3 +8,7 @@ $(document).click(function (event) {
 $('#historybtn').click(function () {
   $('#historymenu').toggle();
 });
+$('.nav-arrow').click(function () {
+  $('#historymenu').hide();
+});
+//# sourceMappingURL=main.js.map
