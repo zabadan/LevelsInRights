@@ -239,6 +239,7 @@ body {
   font-weight: bold;
   font-size: 96px;
   letter-spacing: 0.01em;
+  color: #a6163f;
 }
 
 @media (max-width: 1152px) {
