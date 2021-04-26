@@ -141,6 +141,12 @@ body {
   }
 }
 
+.header .dropdown-menu-footer {
+  color: #a6163f;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
 .main-container {
   max-width: 1050px;
 }
@@ -630,6 +636,12 @@ body {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .lir-nav-stories__item {
+    color: #000;
+  }
+}
+
 .lir-nav-stories__item_current {
   color: rgba(60, 60, 59, 0.5);
 }
@@ -651,8 +663,13 @@ body {
   background-color: rgba(60, 60, 59, 0.5);
 }
 
-.lir-nav-stories__item:last-child:after {
-  display: none;
+.lir-nav-stories__item:last-of-type:after {
+  content: none;
+}
+
+.nav-arrow {
+  position: relative;
+  text-align: right;
 }
 
 .footer {
