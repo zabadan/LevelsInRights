@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap");
 /* Space out content a bit */
 body {
   padding-top: 1.5rem;
@@ -206,7 +205,8 @@ body {
 
 .header .dropdown-menu-header {
   color: #a6163f;
-  font-family: Roboto;
+  font-family: Roboto Slab;
+  font-weight: 500;
   font-size: 24px;
   padding-top: 20px;
 }
@@ -219,7 +219,8 @@ body {
 
 .header .dropdown-menu-footer a {
   color: #a6163f;
-  font-family: Roboto;
+  font-family: Roboto Slab;
+  font-weight: 500;
   font-size: 24px;
 }
 
