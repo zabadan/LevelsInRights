@@ -396,12 +396,14 @@ body {
   }
 
   &-image{
-    @media(max-width: 576px) {
-      text-align: center;
-      margin: 20px 0;
+    @media(max-width: 768px){
       img{
         max-width: 100%;
       }
+    }
+    @media(max-width: 576px) {
+      text-align: center;
+      margin: 20px 0;
     }
   }
 

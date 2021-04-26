@@ -579,13 +579,16 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .lir-image img {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 576px) {
   .lir-image {
     text-align: center;
     margin: 20px 0;
-  }
-  .lir-image img {
-    max-width: 100%;
   }
 }
 
